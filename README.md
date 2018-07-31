@@ -9,6 +9,7 @@ The Data cant be uploaded here due to size contraints.
 It is uploaded in One Drive - 
 https://genpactonline-my.sharepoint.com/:f:/r/personal/703177888_genpact_com/Documents/Assignment_DataFinal?csf=1&e=1YZBbd
 
+
 Files Description-
 
 1.Assignment_1_ClusterEvent - Here we try to figure out ‘event cluster by topic’. The events_min1.csv file has the frequencies of common words for each event. These events are hence clustered by these words. We have used k-means algorithm for clustering these events and create cluster_events.csv . We then use this as a Feature in our model.
@@ -18,6 +19,7 @@ Files Description-
 3.Assignment_3_LaebellingFeatures - Here we try to label the data which are repeating values and the boolean values. We labelled -'user_locale', 'same_city', 'user_joinedAt', 'same_country', 'user_gender', 'admin_friend','cluster' . Then we write it into feature_train_labelled.csv
 
 4.Assignment_4_Model - Here we try to predict using the feature_train_labelled.csv created earlier. We used Random Forest and Logistic Regression to calculate the predictions and find accuracy score and log loss.
+
 
 Data Description-
 
@@ -35,7 +37,9 @@ Columns- event_id, user_id, start_time, city, state, zip, country, lat, and lng 
 6.test.csv - It contains the same columns as train.csv, except for interested and not_interested.
 
 
+
 Steps to run-
+
 1.Download all the data and put in a data folder
 
 2.Downloada all scripts and put in parent folder of data folder.

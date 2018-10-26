@@ -1,4 +1,4 @@
-# Team-16-Event-Recommendation-Assignment
+# Event-Recommendation-Assignment
 Event Recommendation AI/ML Assignment - Genpact Digital
 
 Problem-Predict what events our users will be interested in based on events they’ve responded to in the past, user demographic information, and what events they’ve seen and clicked on in our app.
